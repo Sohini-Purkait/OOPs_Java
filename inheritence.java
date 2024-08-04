@@ -1,3 +1,6 @@
+import java.util.*;
+import bank;
+
 //single level inheritence
 class Shape{           //base class/parent class/super class
     public void area(){
@@ -35,7 +38,7 @@ class Circle extends Shape{
 
 public class inheritence{
     public static void main(String[] args) {
-        Triangle t1 = new Triangle();
-        t1.color = "Red";
+        bank.Account acc1 = new bank.Account();
+        acc1.name = "customer1";
     }
 }
